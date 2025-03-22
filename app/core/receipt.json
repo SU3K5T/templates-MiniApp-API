@@ -1,0 +1,138 @@
+{
+	"template_name": "receipt",
+	"constructorTitle": "Долговая расписка",
+	"steps": [
+		{
+			"step_id": 0,
+			"title": "Общая информация",
+			"fields": [
+				{
+					"id": "date",
+					"label": "Дата",
+					"type": "date",
+					"required": true
+				},
+				{
+					"id": "city",
+					"label": "Город",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "amount",
+					"label": "Сумма",
+					"type": "number",
+					"required": true
+				}
+			]
+		},
+		{
+			"step_id": 1,
+			"title": "Сведения о заемщике",
+			"fields": [
+				{
+					"id": "borrower_name",
+					"label": "ФИО заемщика",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "borrower_birth",
+					"label": "Дата рождения заемщика",
+					"type": "date",
+					"required": true
+				},
+				{
+					"id": "borrower_birthplace",
+					"label": "Место рождения заемщика",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "borrower_passport_series",
+					"label": "Серия паспорта заемщика",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "borrower_passport_number",
+					"label": "Номер паспорта заемщика",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "borrower_passport_department",
+					"label": "Орган, выдавший документ (паспорт)",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "borrower_department_code",
+					"label": "Код подразделения",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "borrower_registration_address",
+					"label": "Адрес регистрации",
+					"type": "text",
+					"required": true
+				}
+			]
+		},
+		{
+			"step_id": 2,
+			"title": "Сведения о займодавце",
+			"fields": [
+				{
+					"id": "lender_name",
+					"label": "ФИО займодавца",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "lender_birth",
+					"label": "Дата рождения займодавца",
+					"type": "date",
+					"required": true
+				},
+				{
+					"id": "lender_birthplace",
+					"label": "Место рождения займодавца",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "lender_passport_series",
+					"label": "Серия паспорта займодавца",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "lender_passport_number",
+					"label": "Номер паспорта займодавца",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "lender_passport_department",
+					"label": "Орган, выдавший документ (паспорт)",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "lender_department_code",
+					"label": "Код подразделения",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "lender_registration_address",
+					"label": "Адрес регистрации",
+					"type": "text",
+					"required": true
+				}
+			]
+		}
+	]
+}

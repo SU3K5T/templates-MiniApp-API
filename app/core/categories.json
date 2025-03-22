@@ -1,0 +1,37 @@
+[
+	{
+		"slug": "loans",
+		"title": "Займ",
+		"description": "Шаблоны документов для создания займов"
+	},
+	{
+		"slug": "transport",
+		"title": "Транспорт",
+		"description": "Документы для операций с транспортом"
+	},
+	{
+		"slug": "marriage",
+		"title": "Брак",
+		"description": "Брачные договоры"
+	},
+	{
+		"slug": "inheritance",
+		"title": "Наследство",
+		"description": "Документы по наследству"
+	},
+	{
+		"slug": "realestate",
+		"title": "Недвижимость",
+		"description": "Шаблоны для сделок"
+	},
+	{
+		"slug": "work",
+		"title": "Работа",
+		"description": "Трудовые договоры"
+	},
+	{
+		"slug": "shopping",
+		"title": "Покупки",
+		"description": "Защита прав потребителей"
+	}
+]

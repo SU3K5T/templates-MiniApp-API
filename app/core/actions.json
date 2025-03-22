@@ -1,0 +1,154 @@
+[
+	{
+		"category_id": 1,
+		"template_slug": "create_receipt",
+		"title": "Создать расписку",
+		"description": "Создаёт расписку для займа",
+		"json_template_filename": "receipt",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 1,
+		"template_slug": "create_loan_agreement",
+		"title": "Создать договор займа с распиской",
+		"description": "Создать договор займа с распиской",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 2,
+		"template_slug": "create-auto-sale-agreement",
+		"title": "Создать договор купли-продажи автомобиля",
+		"description": "Создаёт договор купли-продажи транспортного средства",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 3,
+		"template_slug": "create-marriage-contract",
+		"title": "Создать брачный договор",
+		"description": "Создаёт базовый брачный договор",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 4,
+		"template_slug": "create-will",
+		"title": "Составить завещание",
+		"description": "Создание базового завещания",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 4,
+		"title": "Принятие наследства",
+		"template_slug": "create-inheritance-acceptance",
+		"description": "Документ о принятии наследства",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 4,
+		"title": "Отказ от наследства",
+		"template_slug": "create-inheritance-renunciation",
+		"description": "Оформление отказа от наследственных прав",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 5,
+		"title": "Договор купли-продажи",
+		"template_slug": "create-real-estate-sale-agreement",
+		"description": "Оформление сделки с недвижимостью",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 5,
+		"title": "Договор аренды",
+		"template_slug": "create-lease-agreement",
+		"description": "Шаблон договора аренды жилья",
+		"json_template_filename": "lease_agreement",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 5,
+		"title": "Дарственная на недвижимость",
+		"template_slug": "create-real-estate-deed-of-gift",
+		"description": "Оформление передачи недвижимости в дар",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 6,
+		"title": "Трудовой договор",
+		"template_slug": "create-employment-contract",
+		"description": "Оформление трудовых отношений",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 6,
+		"title": "Соглашение о расторжении",
+		"template_slug": "create-termination-agreement",
+		"description": "Расторжение трудового договора",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 6,
+		"title": "Запрос трудовой книжки",
+		"template_slug": "create-employment-record-request",
+		"description": "Шаблон запроса документов от работодателя",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 7,
+		"title": "Претензия по качеству товара",
+		"template_slug": "create-product-quality-claim",
+		"description": "Шаблон претензии на некачественный товар",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 7,
+		"title": "Требование по гарантии",
+		"template_slug": "create-warranty-claim",
+		"description": "Оформление гарантийного требования",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 7,
+		"title": "Заявление на возврат денег",
+		"template_slug": "create-refund-request",
+		"description": "Требование о возврате средств за товар",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 5,
+		"title": "Заявление на перерасчёт",
+		"template_slug": "create-utility-recalculation-request",
+		"description": "Перерасчёт коммунальных платежей",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 5,
+		"title": "Заявка на ремонт",
+		"template_slug": "create-repair-request",
+		"description": "Требование проведения ремонтных работ",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	},
+	{
+		"category_id": 5,
+		"template_slug": "create-meter-reading-submit",
+		"title": "Передача показаний счётчиков",
+		"description": "Официальная форма передачи показаний",
+		"json_template_filename": "link_to_s3",
+		"format_json_filename": "link_to_s3"
+	}
+]

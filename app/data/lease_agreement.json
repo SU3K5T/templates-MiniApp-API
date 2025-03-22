@@ -1,0 +1,109 @@
+{
+	"template_name": "lease_agreement",
+	"constructorTitle": "Договор аренды",
+	"steps": [
+		{
+			"step_id": 0,
+			"title": "Объект аренды",
+			"fields": [
+				{
+					"id": "property_address",
+					"label": "Адрес объекта",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "property_type",
+					"label": "Тип объекта",
+					"type": "dropdown",
+					"options": ["Квартира", "Дом", "Офис", "Гараж"],
+					"required": true
+				},
+				{
+					"id": "area",
+					"label": "Площадь (м²)",
+					"type": "number",
+					"required": true
+				}
+			]
+		},
+		{
+			"step_id": 1,
+			"title": "Срок и оплата",
+			"fields": [
+				{
+					"id": "start_date",
+					"label": "Дата начала аренды",
+					"type": "date",
+					"required": true
+				},
+				{
+					"id": "end_date",
+					"label": "Дата окончания аренды",
+					"type": "date",
+					"required": true
+				},
+				{
+					"id": "monthly_rent",
+					"label": "Ежемесячная плата (руб.)",
+					"type": "number",
+					"required": true
+				},
+				{
+					"id": "deposit",
+					"label": "Залог (руб.)",
+					"type": "number",
+					"required": false
+				}
+			]
+		},
+		{
+			"step_id": 2,
+			"title": "Стороны договора",
+			"fields": [
+				{
+					"id": "landlord_name",
+					"label": "ФИО арендодателя",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "landlord_passport",
+					"label": "Паспортные данные арендодателя",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "tenant_name",
+					"label": "ФИО арендатора",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "tenant_passport",
+					"label": "Паспортные данные арендатора",
+					"type": "text",
+					"required": true
+				}
+			]
+		},
+		{
+			"step_id": 3,
+			"title": "Дополнительно",
+			"fields": [
+				{
+					"id": "utilities_included",
+					"label": "Коммунальные услуги включены",
+					"type": "checkbox",
+					"required": false
+				},
+				{
+					"id": "pets_allowed",
+					"label": "Разрешены животные",
+					"type": "checkbox",
+					"required": false
+				}
+			]
+		}
+	]
+}
