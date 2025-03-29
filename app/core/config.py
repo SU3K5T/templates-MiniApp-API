@@ -8,8 +8,11 @@ class Settings(BaseSettings):
     DB_PASS: str
     DB_NAME: str
 
-    S3_BUCKET: str
     S3_ENDPOINT: str
+    
+    S3_EMPTY_TEMPLATES_BUCKET: str
+    S3_FORMAT_TEMPLATES_BUCKET: str
+
     S3_ACCESS_KEY: str
     S3_SECRET_KEY: str
     S3_CERT_PATH: str

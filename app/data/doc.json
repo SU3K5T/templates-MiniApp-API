@@ -1,0 +1,596 @@
+{
+	"metadata": {
+		"title": "Договор аренды квартиры",
+		"description": "Полный шаблон договора аренды жилого помещения",
+		"version": "2.0"
+	},
+	"page_settings": {
+		"orientation": "portrait",
+		"margins": {
+			"top": 2.5,
+			"bottom": 2.5,
+			"left": 3,
+			"right": 1.5
+		},
+		"font": {
+			"name": "Times New Roman",
+			"size": 12
+		}
+	},
+	"document_number": {
+		"prefix": "АР-",
+		"generation_method": "auto_increment"
+	},
+	"content": [
+		{
+			"type": "header",
+			"text": "ДОГОВОР АРЕНДЫ КВАРТИРЫ",
+			"style": {
+				"bold": true,
+				"alignment": "center",
+				"font_size": 14,
+				"spacing_after": 12
+			}
+		},
+		{
+			"type": "paragraph",
+			"text": "{location}, {contract_date}",
+			"style": {
+				"spacing_after": 12
+			}
+		},
+		{
+			"type": "paragraph",
+			"text": "{landlord_name}, пол: {landlord_gender}, дата рождения {landlord_birth_date}г., место рождения {landlord_birth_place}. Паспорт {landlord_passport_series} №{landlord_passport_number}, выдан {landlord_passport_issued_by} {landlord_passport_issue_date}, код подразделения {landlord_passport_department_code}, зарегистрирована {landlord_registration_address}",
+			"style": {
+				"alignment": "justify",
+				"spacing_after": 12
+			}
+		},
+		{
+			"type": "paragraph",
+			"text": "именуемая \"Арендодатель\", с одной Стороны, и",
+			"style": {
+				"alignment": "justify",
+				"spacing_after": 12
+			}
+		},
+		{
+			"type": "paragraph",
+			"text": "{tenant_name}, пол: {tenant_gender}, дата рождения {tenant_birth_date}г., место рождения {tenant_birth_place}. Паспорт {tenant_passport_series} №{tenant_passport_number}, выдан {tenant_passport_issued_by} {tenant_passport_issue_date}, код подразделения {tenant_passport_department_code}, зарегистрирован {tenant_registration_address} далее именуемый \"Арендатор\", с другой Стороны, вместе именуемые \"Стороны\",",
+			"style": {
+				"alignment": "justify",
+				"spacing_after": 12
+			}
+		},
+		{
+			"type": "paragraph",
+			"text": "заключили настоящий Договор (далее - Договор) о нижеследующем:",
+			"style": {
+				"alignment": "justify",
+				"spacing_after": 24
+			}
+		},
+		{
+			"type": "section",
+			"title": "1. Предмет Договора",
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "Арендодатель за плату предоставляет принадлежащее ему на праве собственности жилое помещение Арендатору в пользование для проживания в нем.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "paragraph",
+					"text": "Указанное жилое помещение (квартира) площадью {apartment_area}, с кадастровым номером {cadastral_number}, находится по адресу: {apartment_address}, здесь и далее именуемая \"Квартира\". Квартира принадлежит Арендодателю на праве собственности основании {ownership_basis}, что подтверждается {ownership_proof}.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 12
+					}
+				}
+			],
+			"style": {
+				"bold": true
+			}
+		},
+		{
+			"type": "section",
+			"title": "2. Права и обязанности Арендодателя",
+			"content": [
+				{
+					"type": "clause",
+					"number": "2.1",
+					"text": "Предоставить Арендатору Квартиру, в состоянии, пригодном для проживания, а установленное в ней оборудование, исправном состоянии в день подписания Договора.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "paragraph",
+					"text": "Передача Квартиры осуществляется Сторонами путем подписания настоящего договора без подписания акта.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "2.2",
+					"text": "Арендодатель гарантирует, что Квартира на момент заключения Договора не находится в судебном споре, под арестом, а также не обременена правами третьих лиц.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "paragraph",
+					"text": "Арендодатель обязуется:",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "2.3",
+					"text": "Меблировать и оборудовать Квартиру.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "2.4",
+					"text": "Не чинить препятствий Арендатору в правомерном пользовании Квартирой.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "2.5",
+					"text": "Осуществлять техническое обслуживание Квартиры и оборудования в ней.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "2.6",
+					"text": "Самостоятельно оплачивать все налоги и сборы с полученной арендной платы.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "2.7",
+					"text": "Арендодатель имеет право 1 раз в месяц посещать Квартиру и производить внешний осмотр ее состояния, предупредив Арендатора о таком посещении не менее чем за 1 сутки.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "2.8",
+					"text": "В случае нанесения ущерба Квартире, мебели и/или оборудованию Арендодатель имеет право удержать согласованную с Арендатором в письменной форме сумму ущерба из страхового депозита.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "2.9",
+					"text": "Принять от Арендатора Квартиру и находящееся в ней имущество и оборудование не позднее даты расторжения договора.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 12
+					}
+				}
+			],
+			"style": {
+				"bold": true
+			}
+		},
+		{
+			"type": "section",
+			"title": "3. Права и Обязанности Арендатора",
+			"content": [
+				{
+					"type": "clause",
+					"number": "3.1",
+					"text": "Арендатор обязан использовать Квартиру только для проживания, обеспечивать сохранность и поддерживать в надлежащем состоянии Квартиру и находящееся в ней имущество и оборудование.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "3.2",
+					"text": "Своевременно вносить арендную плату за Квартиру Арендодателю в сроки и в порядке, установленном настоящим Договором и оплачивать счета за потребленные коммунальные услуги.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "3.3",
+					"text": "Арендатор не имеет права сдавать Квартиру в субаренду.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "3.4",
+					"text": "Информировать Арендодателя по всем вопросам и обстоятельствам, имеющим отношение к Квартире. Сообщения должны быть своевременными и полными.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "3.5",
+					"text": "Заводить домашних животных в Квартире только с письменного на то разрешения со стороны Арендодателя.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "3.6",
+					"text": "Проводить ремонтные работы или осуществлять какие-либо изменения в Квартире с письменного на то разрешения Арендодателя.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "3.7",
+					"text": "Передать Арендодателю Квартиру, имущество и оборудование в срок не позднее даты прекращения Договора.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "3.8",
+					"text": "Соблюдать тишину в ночное время, не проводить ремонтные работы в ночные, утренние и вечерние часы, а также в выходные дни.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 12
+					}
+				}
+			],
+			"style": {
+				"bold": true
+			}
+		},
+		{
+			"type": "section",
+			"title": "4. Условия Оплаты",
+			"content": [
+				{
+					"type": "clause",
+					"number": "4.1",
+					"text": "Ежемесячная арендная плата устанавливается в размере {rent_amount} ({rent_amount_words}) рублей в месяц и оплачивается ежемесячно до {payment_day} числа текущего месяца аренды. В стоимость аренды не входят коммунальные платежи.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 12
+					}
+				}
+			],
+			"style": {
+				"bold": true
+			}
+		},
+		{
+			"type": "section",
+			"title": "5. Ответственность Сторон",
+			"content": [
+				{
+					"type": "clause",
+					"number": "5.1",
+					"text": "Арендатор несет ответственность за ущерб Квартире, имуществу и оборудованию, а также прилегающим помещениям, нанесенный по вине или по грубой неосторожности Арендатора и/или членов его семьи, его гостей, а также домашних животных. При определении ущерба естественный износ не учитывается.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "5.2",
+					"text": "Арендодатель отвечает за недостатки сданных в аренду Квартиры, мебели и оборудования, полностью или частично препятствующие пользованию ими, даже если во время заключения Договора он не знал об этих недостатках.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "5.3",
+					"text": "В случае задержки оплаты за Квартиру более чем на 20 банковских дней Арендатор выплачивает пеню в размере 0,1 % от своевременно невыплаченной суммы за каждый день просрочки.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "5.4",
+					"text": "Уплата неустойки не освобождает от исполнения своих обязательств по Договору.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 12
+					}
+				}
+			],
+			"style": {
+				"bold": true
+			}
+		},
+		{
+			"type": "section",
+			"title": "6. Основания досрочного расторжения Договора",
+			"content": [
+				{
+					"type": "clause",
+					"number": "6.1",
+					"text": "Договор может быть расторгнут по требованию любой из Сторон, если другая Сторона не соблюдает условия Договора. При этом Сторона, по инициативе которой происходит расторжение Договора, обязана уведомить другую Сторону в письменной форме за 15 (Пятнадцать) дней до момента прекращения Договора.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "6.2",
+					"text": "Арендатор имеет право расторгнуть Договор в любое время, письменно уведомив Арендодателя за 2 (два) месяца до момента прекращения Договора.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "6.3",
+					"text": "Арендодатель не имеет права расторгнуть Договор в одностороннем порядке до окончания срока аренды, если Арендатор соблюдает все условия Договора за исключением случая, указанного в пункте 6.4 Договора.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "6.4",
+					"text": "В случае нарушения Арендатором своих обязательств по Договору, Арендодатель имеет право на досрочное расторжение Договора на основаниях и в порядке, предусмотренным Гражданским Кодексом РФ.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 12
+					}
+				}
+			],
+			"style": {
+				"bold": true
+			}
+		},
+		{
+			"type": "section",
+			"title": "7. Срок действия Договора",
+			"content": [
+				{
+					"type": "clause",
+					"number": "7.1",
+					"text": "Срок аренды составляет {contract_duration}.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "7.2",
+					"text": "Течение срока аренды начинается с момента передачи Квартиры Арендодателем Арендатору, который совпадает с датой заключения договора.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "7.3",
+					"text": "Договор может быть пролонгирован по соглашению Сторон, а также в случаях, предусмотренных Гражданским Кодексом РФ.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 12
+					}
+				}
+			],
+			"style": {
+				"bold": true
+			}
+		},
+		{
+			"type": "section",
+			"title": "8. Форс-мажор",
+			"content": [
+				{
+					"type": "clause",
+					"number": "8.1",
+					"text": "Стороны освобождаются от частичного или полного исполнения обязательств по настоящему Договору, если это неисполнение явилось следствием обстоятельств непреодолимой силы, возникших после заключения настоящего Договора в результате событий чрезвычайного характера, которые Стороны не могли ни предвидеть, ни предотвратить разумными мерами.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 12
+					}
+				}
+			],
+			"style": {
+				"bold": true
+			}
+		},
+		{
+			"type": "section",
+			"title": "9. Дополнительные условия",
+			"content": [
+				{
+					"type": "clause",
+					"number": "9.1",
+					"text": "С согласия арендатора в Квартире будут проживать следующие лица:",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "list",
+					"items": [
+						"{additional_tenant_1}",
+						"{additional_tenant_2}",
+						"{additional_tenant_3}"
+					],
+					"style": {
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "9.2",
+					"text": "Ущерб Квартире, мебели и оборудованию, нанесенный по вине или грубой неосторожности Арендатора и/или членов его семьи, его гостей или домашних животных, не являющийся следствием естественного износа, фиксируется Сторонами в письменном виде.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "9.3",
+					"text": "Все споры и разногласия, не урегулированные Сторонами путем переговоров, передаются на рассмотрение суда. Стороны пришли к соглашению, что возникшие между ними из Договора судебные споры будут рассматриваться в суде по месту нахождения Арендодателя.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "9.4",
+					"text": "Все изменения и дополнения к Договору оформляются письменно и являются неотъемлемой частью Договора.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "9.5",
+					"text": "Настоящий Договор подписан в двух экземплярах по одному для каждой из Сторон, имеющих одинаковую юридическую силу.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "9.6",
+					"text": "Договор вступает в силу с момента его подписания обеими Сторонами.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 12
+					}
+				}
+			],
+			"style": {
+				"bold": true
+			}
+		},
+		{
+			"type": "section",
+			"title": "10. Подписи Сторон",
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "Арендодатель",
+					"style": {
+						"spacing_after": 24
+					}
+				},
+				{
+					"type": "signature_line",
+					"text": "{landlord_name} _________________/",
+					"style": {
+						"spacing_after": 24
+					}
+				},
+				{
+					"type": "paragraph",
+					"text": "Арендатор",
+					"style": {
+						"spacing_after": 24
+					}
+				},
+				{
+					"type": "signature_line",
+					"text": "{tenant_name} _________________/",
+					"style": {
+						"spacing_after": 12
+					}
+				}
+			],
+			"style": {
+				"bold": true
+			}
+		}
+	],
+	"placeholders": {
+		"location": "Населенный пункт заключения договора",
+		"contract_date": "Дата заключения договора",
+		"landlord_name": "ФИО арендодателя",
+		"landlord_gender": "Пол арендодателя",
+		"landlord_birth_date": "Дата рождения арендодателя",
+		"landlord_birth_place": "Место рождения арендодателя",
+		"landlord_passport_series": "Серия паспорта арендодателя",
+		"landlord_passport_number": "Номер паспорта арендодателя",
+		"landlord_passport_issued_by": "Кем выдан паспорт арендодателя",
+		"landlord_passport_issue_date": "Дата выдачи паспорта арендодателя",
+		"landlord_passport_department_code": "Код подразделения паспорта арендодателя",
+		"landlord_registration_address": "Адрес регистрации арендодателя",
+		"tenant_name": "ФИО арендатора",
+		"tenant_gender": "Пол арендатора",
+		"tenant_birth_date": "Дата рождения арендатора",
+		"tenant_birth_place": "Место рождения арендатора",
+		"tenant_passport_series": "Серия паспорта арендатора",
+		"tenant_passport_number": "Номер паспорта арендатора",
+		"tenant_passport_issued_by": "Кем выдан паспорт арендатора",
+		"tenant_passport_issue_date": "Дата выдачи паспорта арендатора",
+		"tenant_passport_department_code": "Код подразделения паспорта арендатора",
+		"tenant_registration_address": "Адрес регистрации арендатора",
+		"apartment_area": "Площадь квартиры (кв.м)",
+		"cadastral_number": "Кадастровый номер квартиры",
+		"apartment_address": "Полный адрес квартиры",
+		"ownership_basis": "Основание права собственности",
+		"ownership_proof": "Документ подтверждения права собственности",
+		"rent_amount": "Сумма арендной платы (цифрами)",
+		"rent_amount_words": "Сумма арендной платы (прописью)",
+		"payment_day": "День ежемесячного платежа",
+		"contract_duration": "Срок действия договора",
+		"additional_tenant_1": "Дополнительный жилец 1",
+		"additional_tenant_2": "Дополнительный жилец 2",
+		"additional_tenant_3": "Дополнительный жилец 3"
+	}
+}

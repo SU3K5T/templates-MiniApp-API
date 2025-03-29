@@ -13,6 +13,12 @@
 					"required": true
 				},
 				{
+					"id": "location",
+					"label": "Населенный пункт заключения договора",
+					"type": "text",
+					"required": true
+				},
+				{
 					"id": "property_type",
 					"label": "Тип объекта",
 					"type": "dropdown",
@@ -24,6 +30,24 @@
 					"label": "Площадь (м²)",
 					"type": "number",
 					"required": true
+				},
+				{
+					"id": "cadastral_number",
+					"label": "Кадастровый номер",
+					"type": "text",
+					"required": false
+				},
+				{
+					"id": "ownership_basis",
+					"label": "Основание права собственности",
+					"type": "text",
+					"required": false
+				},
+				{
+					"id": "ownership_proof",
+					"label": "Документ подтверждения",
+					"type": "text",
+					"required": false
 				}
 			]
 		},
@@ -44,9 +68,21 @@
 					"required": true
 				},
 				{
+					"id": "contract_date",
+					"label": "Дата заключения договора",
+					"type": "date",
+					"required": true
+				},
+				{
 					"id": "monthly_rent",
 					"label": "Ежемесячная плата (руб.)",
 					"type": "number",
+					"required": true
+				},
+				{
+					"id": "rent_amount_words",
+					"label": "Сумма аренды прописью",
+					"type": "text",
 					"required": true
 				},
 				{
@@ -54,6 +90,20 @@
 					"label": "Залог (руб.)",
 					"type": "number",
 					"required": false
+				},
+				{
+					"id": "payment_day",
+					"label": "День ежемесячного платежа",
+					"type": "number",
+					"min": 1,
+					"max": 31,
+					"required": true
+				},
+				{
+					"id": "contract_duration",
+					"label": "Срок действия договора",
+					"type": "text",
+					"required": true
 				}
 			]
 		},
@@ -68,10 +118,47 @@
 					"required": true
 				},
 				{
+					"id": "landlord_gender",
+					"label": "Пол арендодателя",
+					"type": "dropdown",
+					"options": ["Мужской", "Женский"],
+					"required": true
+				},
+				{
+					"id": "landlord_birth_date",
+					"label": "Дата рождения арендодателя",
+					"type": "date",
+					"required": false
+				},
+				{
+					"id": "landlord_birth_place",
+					"label": "Место рождения арендодателя",
+					"type": "text",
+					"required": false
+				},
+				{
 					"id": "landlord_passport",
-					"label": "Паспортные данные арендодателя",
+					"label": "Паспортные данные арендодателя (серия номер)",
 					"type": "text",
 					"required": true
+				},
+				{
+					"id": "landlord_passport_issued_by",
+					"label": "Кем выдан паспорт (арендодатель)",
+					"type": "text",
+					"required": false
+				},
+				{
+					"id": "landlord_passport_issue_date",
+					"label": "Дата выдачи паспорта (арендодатель)",
+					"type": "date",
+					"required": false
+				},
+				{
+					"id": "landlord_registration_address",
+					"label": "Адрес регистрации арендодателя",
+					"type": "text",
+					"required": false
 				},
 				{
 					"id": "tenant_name",
@@ -80,10 +167,65 @@
 					"required": true
 				},
 				{
+					"id": "tenant_gender",
+					"label": "Пол арендатора",
+					"type": "dropdown",
+					"options": ["Мужской", "Женский"],
+					"required": true
+				},
+				{
+					"id": "tenant_birth_date",
+					"label": "Дата рождения арендатора",
+					"type": "date",
+					"required": false
+				},
+				{
+					"id": "tenant_birth_place",
+					"label": "Место рождения арендатора",
+					"type": "text",
+					"required": false
+				},
+				{
 					"id": "tenant_passport",
-					"label": "Паспортные данные арендатора",
+					"label": "Паспортные данные арендатора (серия номер)",
 					"type": "text",
 					"required": true
+				},
+				{
+					"id": "tenant_passport_issued_by",
+					"label": "Кем выдан паспорт (арендатор)",
+					"type": "text",
+					"required": false
+				},
+				{
+					"id": "tenant_passport_issue_date",
+					"label": "Дата выдачи паспорта (арендатор)",
+					"type": "date",
+					"required": false
+				},
+				{
+					"id": "tenant_registration_address",
+					"label": "Адрес регистрации арендатора",
+					"type": "text",
+					"required": false
+				},
+				{
+					"id": "additional_tenant_1",
+					"label": "Дополнительный жилец 1 (ФИО)",
+					"type": "text",
+					"required": false
+				},
+				{
+					"id": "additional_tenant_2",
+					"label": "Дополнительный жилец 2 (ФИО)",
+					"type": "text",
+					"required": false
+				},
+				{
+					"id": "additional_tenant_3",
+					"label": "Дополнительный жилец 3 (ФИО)",
+					"type": "text",
+					"required": false
 				}
 			]
 		},

@@ -5,14 +5,16 @@ from aiobotocore.session import get_session
 from aiobotocore.config import AioConfig
 from app.core.config import settings
 
+# aZrn5hUJjLRU sele pass 
+
 class S3Client:
 
     def __init__(
             self,
+            bucket_name: str,
             access_key: str = settings.S3_ACCESS_KEY,
             secret_key: str = settings.S3_SECRET_KEY,
             endpoint_url: str = settings.S3_ENDPOINT,
-            bucket_name: str = settings.S3_BUCKET,
             cert_path: str = settings.S3_CERT_PATH
     ):
         self.config = {
