@@ -28,7 +28,7 @@
 		"template_slug": "create-marriage-contract",
 		"title": "Создать брачный договор",
 		"description": "Создаёт базовый брачный договор",
-		"json_template_filename": "link_to_s3",
+		"json_template_filename": "marriage_contract",
 		"format_json_filename": "link_to_s3"
 	},
 	{

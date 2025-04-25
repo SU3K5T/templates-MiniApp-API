@@ -24,7 +24,7 @@ class S3Client:
             "verify": cert_path,
             "config": AioConfig(
             s3={
-                "addressing_style": "virtual",  # Важно для vHosted
+                "addressing_style": "virtual",  # vHosted 
                 "signature_version": "s3v4"
             }
             )

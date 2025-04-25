@@ -1,0 +1,277 @@
+{
+	"metadata": {
+		"title": "Брачный договор",
+		"description": "Шаблон брачного договора между супругами",
+		"version": "1.0"
+	},
+	"page_settings": {
+		"orientation": "portrait",
+		"margins": {
+			"top": 2.5,
+			"bottom": 2.5,
+			"left": 3,
+			"right": 1.5
+		},
+		"font": {
+			"name": "Times New Roman",
+			"size": 12
+		}
+	},
+	"document_number": {
+		"prefix": "БД-",
+		"generation_method": "auto_increment"
+	},
+	"content": [
+		{
+			"type": "header",
+			"text": "БРАЧНЫЙ ДОГОВОР",
+			"style": {
+				"bold": true,
+				"alignment": "center",
+				"font_size": 14,
+				"spacing_after": 12
+			}
+		},
+		{
+			"type": "paragraph",
+			"text": "{location}, {contract_date}",
+			"style": {
+				"spacing_after": 12
+			}
+		},
+		{
+			"type": "paragraph",
+			"text": "Гражданин {spouse1_name}, паспорт {spouse1_passport}, именуемый в дальнейшем \"Супруг 1\", и гражданка {spouse2_name}, паспорт {spouse2_passport}, именуемая в дальнейшем \"Супруга 2\", совместно именуемые \"Супруги\", заключили настоящий брачный договор о нижеследующем:",
+			"style": {
+				"alignment": "justify",
+				"spacing_after": 24
+			}
+		},
+		{
+			"type": "section",
+			"title": "1. Общие положения",
+			"content": [
+				{
+					"type": "clause",
+					"number": "1.1",
+					"text": "Настоящий договор регулирует имущественные права и обязанности Супругов в браке и (или) в случае его расторжения.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "1.2",
+					"text": "Договор вступает в силу со дня государственной регистрации заключения брака.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "1.3",
+					"text": "Имущество, приобретенное Супругами во время брака, является {property_regime}.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 12
+					}
+				}
+			],
+			"style": {
+				"bold": true
+			}
+		},
+		{
+			"type": "section",
+			"title": "2. Режим собственности",
+			"content": [
+				{
+					"type": "clause",
+					"number": "2.1",
+					"text": "Имущество, принадлежавшее каждому из Супругов до вступления в брак, остается в их собственности.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "2.2",
+					"text": "Доходы от трудовой, предпринимательской и интеллектуальной деятельности каждого из Супругов являются его собственностью.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "2.3",
+					"text": "Имущество, приобретенное на личные средства одного из Супругов, является его собственностью.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "2.4",
+					"text": "Совместно нажитым имуществом считаются: {joint_property}.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 12
+					}
+				}
+			],
+			"style": {
+				"bold": true
+			}
+		},
+		{
+			"type": "section",
+			"title": "3. Обязательства Супругов",
+			"content": [
+				{
+					"type": "clause",
+					"number": "3.1",
+					"text": "Супруги обязуются нести пропорционально своим доходам расходы на: {common_expenses}.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "3.2",
+					"text": "Каждый из Супругов обязан уведомлять другого Супруга о своих долговых обязательствах.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "3.3",
+					"text": "Супруги несут солидарную ответственность по обязательствам, связанным с содержанием семьи.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 12
+					}
+				}
+			],
+			"style": {
+				"bold": true
+			}
+		},
+		{
+			"type": "section",
+			"title": "4. Особые условия",
+			"content": [
+				{
+					"type": "clause",
+					"number": "4.1",
+					"text": "В случае расторжения брака: {divorce_conditions}.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "4.2",
+					"text": "Настоящий договор может быть изменен или расторгнут в любое время по соглашению Супругов.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "4.3",
+					"text": "Все споры по настоящему договору разрешаются путем переговоров, а при недостижении согласия - в судебном порядке.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 12
+					}
+				}
+			],
+			"style": {
+				"bold": true
+			}
+		},
+		{
+			"type": "section",
+			"title": "5. Заключительные положения",
+			"content": [
+				{
+					"type": "clause",
+					"number": "5.1",
+					"text": "Договор составлен в двух экземплярах, по одному для каждой из Сторон.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "5.2",
+					"text": "Договор подлежит нотариальному удостоверению.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 6
+					}
+				},
+				{
+					"type": "clause",
+					"number": "5.3",
+					"text": "Во всем остальном, что не предусмотрено настоящим договором, Супруги руководствуются действующим законодательством РФ.",
+					"style": {
+						"alignment": "justify",
+						"spacing_after": 12
+					}
+				}
+			],
+			"style": {
+				"bold": true
+			}
+		},
+		{
+			"type": "section",
+			"title": "6. Подписи Сторон",
+			"content": [
+				{
+					"type": "paragraph",
+					"text": "Супруг 1",
+					"style": {
+						"spacing_after": 24
+					}
+				},
+				{
+					"type": "signature_line",
+					"text": "{spouse1_name} _________________/",
+					"style": {
+						"spacing_after": 24
+					}
+				},
+				{
+					"type": "paragraph",
+					"text": "Супруга 2",
+					"style": {
+						"spacing_after": 24
+					}
+				},
+				{
+					"type": "signature_line",
+					"text": "{spouse2_name} _________________/",
+					"style": {
+						"spacing_after": 12
+					}
+				}
+			],
+			"style": {
+				"bold": true
+			}
+		}
+	]
+}

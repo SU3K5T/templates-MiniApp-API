@@ -1,0 +1,77 @@
+{
+	"template_name": "marriage_contract",
+	"constructorTitle": "Брачный договор",
+	"steps": [
+		{
+			"step_id": 0,
+			"title": "Основные сведения",
+			"fields": [
+				{
+					"id": "contract_date",
+					"label": "Дата заключения договора",
+					"type": "date",
+					"required": true
+				},
+				{
+					"id": "marriage_date",
+					"label": "Дата регистрации брака",
+					"type": "date",
+					"required": true
+				}
+			]
+		},
+		{
+			"step_id": 1,
+			"title": "Сведения о супругах",
+			"fields": [
+				{
+					"id": "spouse1_name",
+					"label": "ФИО первого супруга",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "spouse1_passport",
+					"label": "Паспортные данные первого супруга",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "spouse2_name",
+					"label": "ФИО второго супруга",
+					"type": "text",
+					"required": true
+				},
+				{
+					"id": "spouse2_passport",
+					"label": "Паспортные данные второго супруга",
+					"type": "text",
+					"required": true
+				}
+			]
+		},
+		{
+			"step_id": 2,
+			"title": "Имущественные условия",
+			"fields": [
+				{
+					"id": "property_regime",
+					"label": "Режим имущества",
+					"type": "dropdown",
+					"options": [
+						"Совместная собственность",
+						"Раздельная собственность",
+						"Долевая собственность"
+					],
+					"required": true
+				},
+				{
+					"id": "special_conditions",
+					"label": "Особые условия",
+					"type": "text",
+					"required": false
+				}
+			]
+		}
+	]
+}
